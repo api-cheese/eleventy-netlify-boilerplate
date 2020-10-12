@@ -6,5 +6,6 @@ eleventyNavigation:
   order: 0
   key: cheesekey
 phone: 999-888-7777
+testimonial1: This is my first testimonial!
 ---
 \#this is a title test cheeese
