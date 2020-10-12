@@ -1,7 +1,7 @@
 ---
 title: Tomato
 date: 2020-10-12T09:38:31.130Z
-permalink: /tomato
+permalink: /tomato.html
 eleventyNavigation:
   order: 2
   key: tomato
