@@ -53,7 +53,7 @@ collections:
           - { label: "Key", name: "key", widget: "string" }
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
-      - { label: "Phone", name: "phone", widget: "string" }
+      - { label: "Phone", name: "phone", widget: "string", required: false }
       - { label: "Testimonial 1", name: "testimonial1", widget: "relation", collection: "testimonials", value_field: "{{comment}}", search_fields: ["author", "text"],   display_fields: ["{{text}} - {{author}}"] }
   # Authors
   - name: "authors"
