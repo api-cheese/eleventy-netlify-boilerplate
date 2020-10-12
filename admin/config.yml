@@ -12,7 +12,7 @@ collections:
   - name: "global"
     label: "Global Settings"
     folder: "pages"
-    create: false
+    create: true
     slug: "{{slug}}"
     extension: json
     fields:
