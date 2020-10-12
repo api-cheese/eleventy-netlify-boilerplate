@@ -44,7 +44,7 @@ collections:
           - { label: "Order", name: "order", widget: "number", default: 0 }
       - { label: "Body", name: "body", widget: "markdown" }
       - { label: "Phone", name: "phone", widget: "string" }
-      - { label: "Testimonial 1", name: "testimonial1", widget: "relation", collection: "testimonials", value_field: "comment", search_fields: ["author", "text"], value_field: "{{testimonial}}",   display_fields: ["{{text}} - {{author}}"] }
+      - { label: "Testimonial 1", name: "testimonial1", widget: "relation", collection: "testimonials", value_field: "comment", search_fields: ["author", "text"], value_field: "{{comment}}",   display_fields: ["{{text}} - {{author}}"] }
   # Authors
   - name: "authors"
     label: "Author"
