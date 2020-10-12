@@ -11,7 +11,7 @@ collections:
   #global settings
   - name: "global"
     label: "Global Settings"
-    folder: "_data"
+    folder: "pages"
     create: false
     slug: "{{slug}}"
     extension: json
