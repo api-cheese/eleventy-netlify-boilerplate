@@ -8,6 +8,16 @@ backend:
 media_folder: "static/img" # Media files will be stored in the repo under images/uploads
 
 collections:
+  #global settings
+  - name: "global"
+    label: "Global Settings"
+    folder: "_data"
+    create: false
+    slug: "{{slug}}"
+    extension: json
+    fields:
+      - {label: "Phone", name: "phone", widget: "string"}
+      - {label: "Conversion Label", name: "conversion_label", widget: "string"}
   # Our blog posts
   - name: "blog" # Used in routes, e.g., /admin/collections/blog
     label: "Post" # Used in the UI
