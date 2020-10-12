@@ -16,6 +16,7 @@ collections:
     slug: "{{slug}}"
     extension: json
     fields:
+      - {label: "Global Data", name: "title", widget: "hidden", default: "data"}
       - {label: "Phone", name: "phone", widget: "string"}
       - {label: "Conversion Label", name: "conversion_label", widget: "string"}
   # Our blog posts
